@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_hp.setOnClickListener{
-            val intent = Intent(this, hpActivity::class.java)
+            val intent = Intent(this, HpActivity::class.java)
             startActivity(intent)
         }
 

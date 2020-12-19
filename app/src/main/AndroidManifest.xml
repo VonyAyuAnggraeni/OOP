@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".HpAdapter"></activity>
+        <activity android:name=".HpActivity" />
+        <activity android:name=".UserAdapter" />
+        <activity android:name=".EditUserActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".EdithpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
