@@ -32,6 +32,14 @@ class EdithpActivity : AppCompatActivity() {
                 finish()
             }
         }
+        btn_updatehp.setOnClickListener{
+            CoroutineScope(Dispatchers.IO).launch {
+                db.hpDao().updateHp(
+                    hp(hpId, txt_merk.text.toString(), Integer.parseInt(txt_stok.text.toString()), Integer.parseInt(txt_harga.text.toString()) )
+                )
+                finish()
+            }
+        }
 
     }
 
@@ -41,8 +49,14 @@ class EdithpActivity : AppCompatActivity() {
         when (intentType) {
             Constant.TYPE_CREATE -> {
 
+                btn_updatehp.visibility = View.GONE
             }
             Constant.TYPE_READ -> {
+                btn_savehp.visibility = View.GONE
+                btn_updatehp.visibility = View.GONE
+                getHp()
+            }
+            Constant.TYPE_UPDATE -> {
                 btn_savehp.visibility = View.GONE
                 getHp()
             }

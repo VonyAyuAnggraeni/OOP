@@ -26,6 +26,10 @@ class HpAdapter (private val AllHp: ArrayList<hp>, private val listener: OnAdapt
         holder.view.icon_delete.setOnClickListener {
             listener.onDelete(hp)
         }
+        holder.view.icon_edit.setOnClickListener {
+            listener.onUpdate(hp)
+        }
+
     }
 
     class HpViewHolder(val view: View) : RecyclerView.ViewHolder(view)
@@ -39,5 +43,6 @@ class HpAdapter (private val AllHp: ArrayList<hp>, private val listener: OnAdapt
     interface OnAdapterListener {
         fun onClick(hp: hp)
         fun onDelete(hp: hp)
+        fun onUpdate(hp: hp)
     }
 }

@@ -26,6 +26,7 @@ class UserAdapter (private val AllUser: ArrayList<User>, private val listener: O
         holder.view.icon_delete.setOnClickListener {
             listener.onDelete(user)
         }
+
     }
 
     class UserViewHolder(val view: View) : RecyclerView.ViewHolder(view)

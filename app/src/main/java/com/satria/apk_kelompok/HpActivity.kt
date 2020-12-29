@@ -61,6 +61,10 @@ class HpActivity : AppCompatActivity() {
             override fun onDelete(hp: hp ) {
                 deleteDialog(hp)
             }
+            override fun onUpdate(hp: hp) {
+                // edit data
+                intentEdit(hp.id, Constant.TYPE_UPDATE)
+            }
         })
         list_hp.apply {
             layoutManager = LinearLayoutManager(applicationContext)
