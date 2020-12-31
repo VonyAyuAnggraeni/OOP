@@ -26,6 +26,9 @@ class UserAdapter (private val AllUser: ArrayList<User>, private val listener: O
         holder.view.icon_delete.setOnClickListener {
             listener.onDelete(user)
         }
+        holder.view.icon_edit.setOnClickListener {
+            listener.onUpdate(user)
+        }
 
     }
 
@@ -40,6 +43,7 @@ class UserAdapter (private val AllUser: ArrayList<User>, private val listener: O
     interface OnAdapterListener {
         fun onClick(user: User)
         fun onDelete(user: User)
+        fun onUpdate(user: User)
     }
 
 }
