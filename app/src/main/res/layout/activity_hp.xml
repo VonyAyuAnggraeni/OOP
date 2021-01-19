@@ -20,7 +20,7 @@
         android:id="@+id/btn_createhp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Tambah Data Helm"
+        android:text="Tambah Data Hp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
