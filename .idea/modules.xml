@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/APK_KELOMPOK.iml" filepath="$PROJECT_DIR$/.idea/modules/APK_KELOMPOK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/APK_KELOMPOK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/APK_KELOMPOK.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/APK_KELOMPOK.iml" filepath="$PROJECT_DIR$/.idea/modules/APK_KELOMPOK.iml" group="APK_KELOMPOK" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="APK_KELOMPOK/app" />
     </modules>
   </component>
 </project>

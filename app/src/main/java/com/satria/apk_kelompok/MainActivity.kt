@@ -20,5 +20,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, UserActivity::class.java)
             startActivity(intent)
         }
+
+        btn_pembeli.setOnClickListener{
+            val intent = Intent(this, PembeliActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

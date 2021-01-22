@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "229094502244",
+    "firebase_url": "https://alim-oop-default-rtdb.firebaseio.com",
+    "project_id": "alim-oop",
+    "storage_bucket": "alim-oop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229094502244:android:ec171e3061a62aae981471",
+        "android_client_info": {
+          "package_name": "com.satria.apk_kelompok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229094502244-oosvgr09il5eqvkdtjhtslu31msd9vrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satria.apk_kelompok",
+            "certificate_hash": "5c75d638f7cf6285ec1d8de14466274accfe9505"
+          }
+        },
+        {
+          "client_id": "229094502244-aa6hl4jtlss7kud5lbgd4i42oe823m96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUddmF4pL_e26ZB10jdkPpUhn-CAiZM1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229094502244-aa6hl4jtlss7kud5lbgd4i42oe823m96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
